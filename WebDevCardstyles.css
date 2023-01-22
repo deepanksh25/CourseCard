@@ -1,0 +1,69 @@
+
+.card{
+    background-color: white;
+   
+    height: 500px;
+    width: 450px;
+    box-shadow: 3px 3px 5px grey;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#image{
+    padding: 15px;
+    padding-right: 10px;
+    height: 300px;
+    width: 420px;
+    border-radius: 25px;
+    object-fit:fill;
+   
+}
+.desc:hover{
+    color: rgb(20, 97, 220);
+}
+p{
+    margin-top: 10px;
+    margin-left: 15px;
+    line-height: normal;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#price,#del{
+    display: inline-block;
+}
+.offer{
+    background-color: rgb(16, 187, 147);
+    font-size: small;
+    border-radius: 5px;
+    height: 20px;
+    width: 50px;
+}
+.prices{
+    margin-top: 10px;
+    display: flex;
+    padding: 15px;
+    padding-right: 10px;
+    height: 50px;
+    width: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+   
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+del{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.original{
+    color: cornflowerblue;
+}
